@@ -1,0 +1,165 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            }
+            
+            .navbar{
+                display: flex;
+                justify-content: space-between;
+                background: url("./Assets/png/Merged\ bar-57.png") no-repeat;
+                align-items: center;
+                background-size: cover;
+                top: 0;
+                width: 100%;
+               
+            }
+            .navbar_logo{
+            padding-left: 1.5em;
+            width: 7vw;
+            min-width: 30px;
+            
+            }
+            .navbar_listes{
+            padding-right: 1.5em;
+            
+            }
+            .navbar_listes--link{
+            text-decoration: none;
+            font-size:25px;
+            padding-right: 1em;
+            font-weight: bold;
+            color: black;
+          
+            }
+            .world{
+                width: 2vw;
+                min-width: 7px;
+
+            }
+            .lang{
+                border: 1px solid orange;
+                padding: 0.1em;
+                border-radius: 15px;
+            }
+            .yellowbar{
+                background-color: rgb(255, 200, 0);
+                
+            }
+            
+            
+            .title-heading{
+                text-align: center;
+                font-family: 'Segoe UI', sans-serif;
+                padding-top: 15px;
+                
+            }
+            .description{
+            text-align: center;
+            font-family: 'Segoe UI', sans-serif;
+            line-height: 30px;
+            color: rgb(24, 124, 107);
+            font-weight: 500;
+            width: 38em;
+            margin: auto;
+            font-size:small;
+            }
+            
+            
+            .title-question{
+                text-align: center;
+                font-family: 'Segoe UI', sans-serif;
+                width: 17em;
+                padding-bottom: 30px;
+                padding-top: 10px;
+                color: #2583ab;
+                padding-left: 38%;
+                font-size:medium;
+                line-height: 2em;
+        
+            }
+                
+            /* Grid */
+            .symptome{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                text-align: center;
+                /* width: 600px; approcher les images */
+                margin: 0 auto;
+                padding-left: 5%;
+                padding-bottom: 30px;
+        
+            }
+        
+            .img{
+                width: 4em;
+                padding: 1em;
+                
+            
+            }
+            .img-1{
+                width: 3em;
+                height: 4em;
+            }
+            h5{
+                color: #0e54a8;
+                line-height: 1.5em;
+            }
+
+            @media only screen and (max-width: 1000px){
+                .yellowbar{
+                    font-size: larger;
+                }
+              
+                .symptome{
+                    grid-template-columns: repeat(2,1fr);
+                }
+                .navbar_listes--link{
+                    font-size: 23px;
+                }
+            
+             }
+             
+            @media only screen and (max-width: 600px){
+
+                .navbar_listes--link{
+                    font-size: 16px;
+                }
+            
+                .yellowbar{
+                    font-size: x-small;
+                    width: 100%;    
+                    
+                }
+                .description{
+                    width: 80%;
+                    line-height: 1.5em;
+                }
+
+                    .title-question{
+                        font-size: small;
+                        width: 40%;
+                        padding-left: 34%;
+                      
+                    }
+                    .symptome{
+                        grid-template-columns: repeat(1,1fr);
+                    }
+                    
+                   /* navbar-listes  */
+                }
+                @media only screen and (max-width: 800px){
+                
+                    .navbar_listes--link{
+                        font-size: 20px;
+                    }
+                }
+                @media only screen and (max-width: 400px){
+
+                    .navbar_listes--link{
+                        font-size: 16px;
+                    }}
+            
+
+
+            
